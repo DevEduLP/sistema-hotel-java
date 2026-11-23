@@ -1,6 +1,7 @@
 # Sistema de Gerenciamento de Hotel (Java CLI)
 
 Aplicação de console desenvolvida em Java puro para prática de **Programação Orientada a Objetos (POO)**, encapsulamento e manipulação de coleções em memória (`ArrayList`).
+![Java](https://shields.io)
 
 ## Funcionalidades
 - Cadastro de quartos (Simples, Duplo, Luxo)
