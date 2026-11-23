@@ -1,7 +1,8 @@
 # Sistema de Gerenciamento de Hotel (Java CLI)
 
+![Java](https://img.shields.io/badge/Java-21%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
 Aplicação de console desenvolvida em Java puro para prática de **Programação Orientada a Objetos (POO)**, encapsulamento e manipulação de coleções em memória (`ArrayList`).
-![Java](https://shields.io)
 
 ## Funcionalidades
 - Cadastro de quartos (Simples, Duplo, Luxo)
@@ -10,12 +11,12 @@ Aplicação de console desenvolvida em Java puro para prática de **Programaçã
 - Cancelamento de reserva
 
 ## Estrutura do Projeto
-- `Quarto.java`: Entidade que representa o quarto e seus estados.
-- `Hotel.java`: Classe de gerenciamento responsável pelas regras de negócio e lista de quartos.
-- `Main.java`: Interface de interação via terminal (`Scanner`).
+- `src/Quarto.java`: Entidade que representa o quarto e seus estados.
+- `src/Hotel.java`: Classe de gerenciamento responsável pelas regras de negócio e lista de quartos.
+- `src/Main.java`: Interface de interação via terminal (`Scanner`).
 
 ## Como Executar
-Certifique-se de ter o **JDK 17+** instalado:
+Certifique-se de ter o **JDK 17+** instalado e execute a partir da raiz do projeto:
 ```bash
-javac Main.java Hotel.java Quarto.java
-java Main
+javac -d bin src/*.java
+java -cp bin Main
